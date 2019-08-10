@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    
+}
+
+.header {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    margin: 45px;
+}
+
+.mainProjects {
+    max-height: 700px;
+    max-width: 900px;
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: scroll;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+.singleProject {
+    margin: 25px 0;
+}
+
+.singleProject img {
+    display: inline-block;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.projContent {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.projDesc {
+    width: 550px;
+}
+
